@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: #edeff2;
+      }
+      .resource-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, 55%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ff554f;
+        color: white;
+        font-size: 16px;
+        padding: 24px 130px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .btn:hover {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resource-image">
+      <img
+        itemprop="image"
+        class="big-resource"
+        src="/static/images/no-internet.png"
+        alt="“No Internet!” Modal - Free Sketch"
+      />
+    </div>
+    <button class="btn" onClick="location.href=location.href">Try Again</button>
+  </body>
+</html>
